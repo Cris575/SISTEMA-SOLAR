@@ -1,0 +1,88 @@
+body,
+html {
+    text-align: center;
+    background-image: url("../img/sistema-solar-ilustracion_2560x1440_9454.png");
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    height: 100%;
+    color: white;
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+}
+
+.absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+div#particles-js {
+    width: 100%;
+    height: 100;
+}
+
+div#p {
+    padding: 1% 2%;
+    border-radius: 2em;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    
+    
+}
+
+div#line {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+div#right {
+    text-align: right;
+    width: 40%;
+}
+
+div#left {
+    text-align: left;
+    width: 40%;
+}
+
+img#planet {
+    height: 15em;
+    width: 15.625em;
+    margin-bottom: 1%;
+    border-radius: 1em;
+}
+
+img#rocket-right {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    width: 15%;
+}
+
+img#rocket-left {
+    transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    -o-transform: rotate(225deg);
+    width: 15%;
+}
+
+div {
+    width: 50vw;
+    margin: auto;
+}
+
+p {
+    text-align: justify;
+    font-size: 0.9rem;
+}
